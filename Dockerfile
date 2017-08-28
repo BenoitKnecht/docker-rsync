@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.6
 
 RUN apk --update add rsync && rm -rf /var/cache/apk/*
 
